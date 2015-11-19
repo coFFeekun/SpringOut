@@ -1,4 +1,6 @@
-
+/**
+ * Created by Baker on 19.11.2015.
+ */
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-/**
- * Created by Baker on 19.11.2015.
- */
+
 
 
 @RestController

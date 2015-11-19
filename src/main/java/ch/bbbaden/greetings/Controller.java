@@ -9,23 +9,22 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
-
-
 @RestController
 @EnableAutoConfiguration
 @SpringBootApplication
 @EnableAsync
-public class TestController {
+public class Controller {
 
     @RequestMapping("/begun")
     public String map(){
-        return "Duden.de";
+
+        return "animated.gif";
 
     }
 
     public static void main(String[] args) throws Exception {
 
-        SpringApplication.run(TestController.class, args);
+        SpringApplication.run(Controller.class, args);
     }
 }
 

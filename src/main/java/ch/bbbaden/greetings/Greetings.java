@@ -1,3 +1,5 @@
+package ch.bbbaden.greetings;
+
 class Greetings {
 
     private final long id;
